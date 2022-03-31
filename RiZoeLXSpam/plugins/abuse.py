@@ -64,7 +64,7 @@ async def _(e):
                 text = f"I can't abuse @RiZoeLX's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"𝗦𝗢𝗥𝗥𝗬"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = a.first_name
