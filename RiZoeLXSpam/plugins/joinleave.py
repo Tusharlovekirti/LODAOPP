@@ -57,7 +57,7 @@ async def _(e):
         rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = rizoel[0]
-            text = "Joining..."
+            text = "Joined BABY ENJOY 💖..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
@@ -115,7 +115,7 @@ async def _(e):
         rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = rizoel[0]
-            text = "Joining...."
+            text = "Joined BABY ENJOY 💖."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
@@ -175,7 +175,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = rizoel[0]
             bc = int(bc)
-            text = "Leaving....."
+            text = "Joined BABY ENJOY 💖.."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
