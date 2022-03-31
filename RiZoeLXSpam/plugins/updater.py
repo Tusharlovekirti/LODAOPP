@@ -71,7 +71,7 @@ RESTARTING_APP = "re-starting heroku application"
 @Riz40.on(events.NewMessage(incoming=True, pattern=r"\%supdate(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in DEV:
-        text = "__ updating Your Rizoelxspam Userbots __\n **Type** .ping **After 5min To check I'm On !!**"
+        text = "__ updating Your tusharxspam Userbots __\n **Type** .ping **After 5min To check I'm On !!**"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
